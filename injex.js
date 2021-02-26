@@ -32,10 +32,10 @@ app.post("/",function(req,res){
     }
 
     const jsonData=JSON.stringify(data);
-    const url="https://us10.api.mailchimp.com/3.0/lists/904ec3f988";
+    const url="https://usX.api.mailchimp.com/3.0/lists/904ec3f988";
     const options={
         method:"POST",
-        auth:"sid:1fe54269b9e8c0acaa474082da09f2b8-us10",
+        auth:"sid:----------------Api Key--------------",
     }
 
     const request=https.request(url,options,function(response){
